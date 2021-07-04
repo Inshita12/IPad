@@ -1,0 +1,71 @@
+
+  .wheel {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+
+    #menu {
+      color:#b9b9b9;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 8px;
+    font-weight: bold;
+    width: 80px;
+    height: 50px;
+    padding: 5px 10px;
+  }
+
+  #forward{
+    color:#b9b9b9;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 1px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    padding: 5px 10px;
+  }
+  #backward{
+    color:#b9b9b9;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 1px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    padding: 5px 10px;
+  }
+  #fast{
+    color:#b9b9b9;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 15px;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+ }
+  .smallwheel {
+        
+    position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #b9b9b9;
+  border-radius: 50%;
+}
+  }

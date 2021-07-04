@@ -1,0 +1,89 @@
+.screen {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 275px;
+  height: 195px;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid black;
+  border-radius: 2px;
+  box-shadow: 0 0 0.6em #b9b9b9 inset, 0 0 0.6em #b9b9b9;
+  .list {
+    position: absolute;
+    left: -0.5px;
+    width: 140px;
+    height: 197px;
+    background-color: white;
+  }
+  img {
+    position: absolute;
+    right: -0.5px;
+    width: 135px;
+    height: 197px;
+  }
+  #tag {
+    position: absolute;
+    font-size: larger;
+    font-weight: bold;
+    top: 15px;
+    left: 15px;
+  }
+  li {
+    list-style-type: none;
+    font-weight: bold;
+  }
+  .coverflow {
+    position: absolute;
+    left: 10px;
+    text-align: left;
+    top: 50px;
+    width: 120px;
+    height: 28px;
+  }
+  .coverflow:hover {
+    background-color: #3782d8;
+    color: white;
+  }
+  .music {
+    position: absolute;
+    left: 10px;
+    top: 80px;
+    width: 120px;
+    height: 28px;
+  }
+  .music:hover {
+    background-color: #3782d8;
+    color: white;
+  }
+  .games {
+    position: absolute;
+    left: 10px;
+    top: 110px;
+    width: 120px;
+    height: 28px;
+  }
+  .games:hover {
+    background-color: #3782d8;
+    color: white;
+  }
+  .settings {
+    position: absolute;
+    left: 10px;
+    top: 140px;
+    width: 120px;
+    height: 28px;
+  }
+  .settings:hover {
+    background-color: #3782d8;
+    color: white;
+  }
+  .song{
+    margin-left: 10px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+  }
+}
